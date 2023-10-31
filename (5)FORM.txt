@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>form</title>
+<style>
+*{
+background-color:yellow;
+width:50%;
+}
+.container{
+background-color:yellow;
+width:50%;
+}
+.input{
+background-color:yellow;
+}
+input:focus{
+background-color:yellow;
+width:50%;
+}
+.btn{
+background-color:yellow;
+padding:10 px;
+}
+</style>
+</head>
+<body>
+<form class="container">
+<label for="name">name</label>
+<input type="text" name="name"><br>
+<label for="sex">sex</label>
+<input type="radio" name="sex" id="male" value="male">
+<label for="male">male</label>
+<input type="radio" name="sex" id="female" value="female">
+<label for="female">female</label>
+<label for="country">country</label>
+<select name="country" id="country">
+<option>select</option>
+<option value="india">india</option>
+<option value="england">england</option>
+</select>
+<label for="message">message</label>
+<textarea name="message" id="message" cols="30" rows="4"></textarea><br>
+<input type="submit" class="btn" value="submit">
+</form>
+</body>
+</html>
